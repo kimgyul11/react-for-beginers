@@ -6,6 +6,9 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route>
+          <Nav />
+        </Route>
         <Route path="/movie/:id">
           <Detail />
         </Route>
